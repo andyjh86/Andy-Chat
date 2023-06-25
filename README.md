@@ -21,3 +21,5 @@ The following is an example of the re-install
 SET LLAMA_CLBLAST=1 && SET FORCE_CMAKE=1 && SET CMAKE_ARGS=-DLLAMA_CUBLAS=on && python -m pip install llama-cpp-python --force-reinstall --upgrade --no-cache-dir
 
 You will also need the Tk package to support the GUI using Tkinter 
+
+And you may need to install or reinstall pytorch depending on the python environment (Get the installer pip here for your setup  https://pytorch.org/get-started/locally/ )
